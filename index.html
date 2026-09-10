@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NovaBeam Wireless Speaker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="header-inner">
+        <a href="#hero" class="logo">novabeam</a>
+        <nav class="main-nav">
+            <a href="#features">Features</a>
+            <a href="#specs">Specs</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#reviews">Reviews</a>
+        </nav>
+        <a href="#order" class="btn btn-buy">Buy — ₱2,499</a>
+    </div>
+</header>
+
+<main>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+        <div class="hero-media">
+            <img src="images/front.jpg" alt="NovaBeam wireless speaker">
+        </div>
+        <div class="hero-copy">
+            <p class="eyebrow">New</p>
+            <h1>Sound that<br>goes anywhere.</h1>
+            <p class="hero-sub">20 hours of battery. Full waterproofing. One speaker built to keep up with your day, wherever it takes you.</p>
+            <div class="hero-actions">
+                <a href="#features" class="btn btn-ghost">See what it can do</a>
+                <a href="#order" class="btn btn-primary">Order now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURE BAND -->
+    <section class="feature-band" id="features">
+        <article class="feature">
+            <img src="images/battery.webp" alt="">
+            <h3>20-hour battery</h3>
+            <p>Charge once, listen through the whole weekend.</p>
+        </article>
+        <article class="feature">
+            <img src="images/ipx7.webp" alt="">
+            <h3>IPX7 waterproof</h3>
+            <p>Pool, beach, downpour — it doesn't care.</p>
+        </article>
+        <article class="feature">
+            <img src="images/bluetooth.jpg" alt="">
+            <h3>Bluetooth 5.3</h3>
+            <p>Locks onto your devices fast and holds the connection.</p>
+        </article>
+    </section>
+
+    <!-- BIG STATEMENT / DETAIL SHOT -->
+    <section class="statement">
+        <img src="images/close.jpg" alt="Close-up of the NovaBeam speaker mesh grille">
+        <div class="statement-copy">
+            <h2>Every detail, engineered on purpose.</h2>
+            <p>A precision mesh grille protects a 20W driver array tuned for deep low end without losing the top. Nothing on NovaBeam is there by accident.</p>
+        </div>
+    </section>
+
+    <!-- SPECS -->
+    <section class="specs" id="specs">
+        <h2>Specifications</h2>
+        <dl class="spec-list">
+            <div class="spec-row">
+                <dt>Output power</dt>
+                <dd>20W RMS</dd>
+            </div>
+            <div class="spec-row">
+                <dt>Battery life</dt>
+                <dd>Up to 20 hours</dd>
+            </div>
+            <div class="spec-row">
+                <dt>Connectivity</dt>
+                <dd>Bluetooth 5.3, USB-C, AUX-in</dd>
+            </div>
+            <div class="spec-row">
+                <dt>Water resistance</dt>
+                <dd>IPX7</dd>
+            </div>
+            <div class="spec-row">
+                <dt>Weight</dt>
+                <dd>540 g</dd>
+            </div>
+            <div class="spec-row">
+                <dt>Colors</dt>
+                <dd>Matte Black, Statement Red, Champagne Gold</dd>
+            </div>
+        </dl>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="gallery" id="gallery">
+        <h2>Look closer</h2>
+        <div class="gallery-track">
+            <figure>
+                <img src="images/side.jpg" alt="NovaBeam side view">
+                <figcaption>Side view</figcaption>
+            </figure>
+            <figure>
+                <img src="images/top.jpg" alt="NovaBeam top view">
+                <figcaption>Top view</figcaption>
+            </figure>
+            <figure>
+                <img src="images/close.jpg" alt="NovaBeam grille close view">
+                <figcaption>Close view</figcaption>
+            </figure>
+            <figure>
+                <img src="images/indoor.jpg" alt="NovaBeam speaker in use outdoors">
+                <figcaption>In use, outdoors</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section class="reviews" id="reviews">
+        <h2>What people are saying</h2>
+        <div class="review-grid">
+            <blockquote>
+                <p>“The bass on this speaker is unreal for its size. Battery easily lasts two days of casual use.”</p>
+                <cite>Maria S. — 5/5</cite>
+            </blockquote>
+            <blockquote>
+                <p>“Great sound and very durable. Wish it came with a carrying strap included.”</p>
+                <cite>Jonas T. — 4/5</cite>
+            </blockquote>
+            <blockquote>
+                <p>“Took it kayaking and it survived a splash test with no issues. Highly recommended.”</p>
+                <cite>Ella R. — 5/5</cite>
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- ORDER -->
+    <section class="order" id="order">
+        <div class="order-intro">
+            <h2>Make it yours.</h2>
+            <p>Pick a color, choose how you'll pay, and we'll confirm the rest with you directly.</p>
+        </div>
+
+        <form class="order-form" action="#" method="post">
+            <div class="field">
+                <label for="fullname">Full name</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Juan Dela Cruz" required>
+            </div>
+            <div class="field">
+                <label for="email">Email address</label>
+                <input type="email" id="email" name="email" placeholder="juan@example.com" required>
+            </div>
+            <div class="field">
+                <label for="contact">Contact number</label>
+                <input type="tel" id="contact" name="contact" placeholder="09XXXXXXXXX" required>
+            </div>
+            <div class="field field-wide">
+                <label for="address">Shipping address</label>
+                <textarea id="address" name="address" rows="3" placeholder="House No., Street, City, Province"></textarea>
+            </div>
+
+            <div class="field">
+                <label>Color</label>
+                <div class="swatches">
+                    <input type="radio" id="black" name="color" value="black" checked>
+                    <label for="black" class="swatch swatch-black" title="Matte Black"></label>
+                    <input type="radio" id="red" name="color" value="red">
+                    <label for="red" class="swatch swatch-red" title="Statement Red"></label>
+                    <input type="radio" id="gold" name="color" value="gold">
+                    <label for="gold" class="swatch swatch-gold" title="Champagne Gold"></label>
+                </div>
+            </div>
+            <div class="field">
+                <label for="quantity">Quantity</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="10" value="1">
+            </div>
+
+            <div class="field field-wide">
+                <label>Payment method</label>
+                <div class="pill-options">
+                    <input type="radio" id="cod" name="payment" value="cod" checked>
+                    <label for="cod">Cash on delivery</label>
+                    <input type="radio" id="gcash" name="payment" value="gcash">
+                    <label for="gcash">GCash</label>
+                    <input type="radio" id="bank" name="payment" value="bank">
+                    <label for="bank">Bank transfer</label>
+                </div>
+            </div>
+
+            <div class="field field-wide">
+                <label>Add-ons</label>
+                <div class="pill-options">
+                    <input type="checkbox" id="strap" name="addons" value="strap">
+                    <label for="strap">Carrying strap — +₱150</label>
+                    <input type="checkbox" id="case" name="addons" value="case">
+                    <label for="case">Protective case — +₱300</label>
+                </div>
+            </div>
+
+            <div class="field field-wide">
+                <label for="notes">Order notes</label>
+                <textarea id="notes" name="notes" rows="3" placeholder="Optional instructions"></textarea>
+            </div>
+
+            <div class="field field-wide field-actions">
+                <button type="submit" class="btn btn-primary">Place order</button>
+                <button type="reset" class="btn btn-ghost">Clear form</button>
+            </div>
+        </form>
+    </section>
+
+</main>
+
+<footer class="site-footer">
+    <p class="footer-brand">novabeam</p>
+    <p>© 2026 NovaBeam Audio. All rights reserved.</p>
+    <p>novabeam.support@example.com · (045) 123-4567</p>
+</footer>
+
+</body>
+</html>
